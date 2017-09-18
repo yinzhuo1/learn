@@ -6,7 +6,7 @@
 
 .text
 
-ljmp $BOOTSEG, $_bootstart
+#ljmp $BOOTSEG, $_bootstart
 
 _bootstart:
 # Get cursor position
